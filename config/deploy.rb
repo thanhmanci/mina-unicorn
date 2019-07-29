@@ -43,7 +43,7 @@ set :delayed_job_args, "-n 2"
 #You can find the RVM location with the rvm info command.
 #=====>>> TO VIEW VERSION RUBY: RUN rmv list
 task :remote_environment do
-  invoke :'rvm:use', 'ruby-2.6.0'
+  invoke :'rvm:use', 'ruby-2.5.5'
 end
 
 task :setup do
